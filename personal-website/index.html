@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal website</title>
+    <style>
+      body {
+        background-image: url("img/background-frontend.webp");
+        background-size: cover;
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .container {
+        margin-top: 10%;
+      }
+
+      .container-img {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+      }
+      img {
+        border: 2px solid black;
+        border-radius: 100%;
+        height: 50%;
+        width: 10%;
+      }
+
+      p {
+        font-weight: bold;
+      }
+
+      input {
+        border: none;
+        padding: 10px;
+      }
+
+      input[type="submit"] {
+        color: white;
+        background-color: red;
+        border: none;
+        padding: 10px;
+      }
+
+      input::placeholder {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-img">
+        <img src="img/profile-img.jpg" alt="My photo" />
+      </div>
+      <p>
+        Hello, my name is Afef Hassani and I am a junior front-end developer!
+      </p>
+      <input type="email" placeholder="Your email" />
+      <input type="submit" />
+    </div>
+  </body>
+</html>
